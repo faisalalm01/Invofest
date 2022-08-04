@@ -1,7 +1,11 @@
 import React from 'react'
+import Navbars from '../../components/Navbars'
+
 
 export default function workshop() {
   return (
-    <div>workshop</div>
+      <div>
+          <Navbars />    
+    </div>
   )
 }
