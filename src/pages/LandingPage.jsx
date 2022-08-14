@@ -1,16 +1,21 @@
 import React from 'react'
-import Particles from 'react-tsparticles'
-import particles from '../components/Particles'
 import Navbars from '../components/Navbars'
+import Particle from '../components/Particle'
+import Cards from "../components/Cards"
 
-export default function LandingPage() {
+const LandingPage = () => {
   return (
     <div>
-        <Navbars/>
-        <Particles
-        params={particles}
-        className="particles"
-        />
+      <Navbars/>
+      <Particle/>
+      <Cards/>
+      <Cards/>
+      <Cards/>
+      <Cards/>
+      <Cards/>
+      <Cards/>
     </div>
   )
 }
+
+export default LandingPage;

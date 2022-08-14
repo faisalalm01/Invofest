@@ -1,39 +1,19 @@
 import React from 'react'
+import { Card } from 'react-bootstrap'
 
 export default function Cards() {
   return (
-    <div className='flex'>
-    <div class="flex justify-center">
-    <div class="flex flex-col md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg">
-      <img class=" w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg" src="https://mdbootstrap.com/wp-content/uploads/2020/06/vertical.jpg" alt="" />
-      <div class="p-6 flex flex-col justify-start">
-        <h5 class="text-gray-900 text-xl font-medium mb-2">Card title</h5>
-        <p class="text-gray-700 text-base mb-4">
-          This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
-        </p>
-        <p class="text-gray-600 text-xs">Last updated 3 mins ago</p>
-        <div className='mt-8'>
-        <button className='w-full bg-black rounded-md text-white p-5 border border-black hover:bg-white hover:text-black'>Lihat Details</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="flex justify-center">
-    <div class="flex flex-col md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg">
-      <img class=" w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg" src="https://mdbootstrap.com/wp-content/uploads/2020/06/vertical.jpg" alt="" />
-      <div class="p-6 flex flex-col justify-start">
-        <h5 class="text-gray-900 text-xl font-medium mb-2">Card title</h5>
-        <p class="text-gray-700 text-base mb-4">
-          This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
-        </p>
-        <p class="text-gray-600 text-xs">Last updated 3 mins ago</p>
-        <div className='mt-8'>
-        <button className='w-full bg-black rounded-md text-white p-5 border border-black hover:bg-white hover:text-black'>Lihat Details</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-    </div>
+    <>
+    <Card border="danger" style={{ width: '18rem' }}>
+    <Card.Header>Header</Card.Header>
+    <Card.Body>
+      <Card.Title>Danger Card Title</Card.Title>
+      <Card.Text>
+        Some quick example text to build on the card title and make up the bulk
+        of the card's content.
+      </Card.Text>
+    </Card.Body>
+  </Card>
+    </>
   )
 }
