@@ -1,31 +1,30 @@
-import './index.css';
-import React from 'react';
-import { Route, Routes, BrowserRouter as Router} from 'react-router-dom'
-import LandingPage from './pages/LandingPage';
-import Workshop from './pages/workshop/workshop';
-import Competition from './pages/competition/Competition';
-import Talkshow from './pages/talkshow/Talkshow';
+import "./index.css";
+import React from "react";
+import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
+import LandingPage from "./pages/LandingPage";
+import Workshop from "./pages/workshop/workshop";
+import Competition from "./pages/competition/Competition";
+import Talkshow from "./pages/talkshow/Talkshow";
 
 function App() {
   return (
     <>
-     <Router>
-      <Routes>
-          <Route path='/' element={<LandingPage />} />
-          <Route path='/Competition' element={<Competition/>} />
-          <Route path='/Talkshow' element={<Talkshow/>} />
-          <Route path='/Workshop' element={<Workshop/>} />          
-      </Routes>
-     </Router>
+      <Router>
+        <Routes>
+          <Route path="/" element={<LandingPage/>} />
+          <Route path="/Competition" element={<Competition />} />
+          <Route path="/Talkshow" element={<Talkshow />} />
+          <Route path="/Workshop" element={<Workshop/>} />
+        </Routes>
+      </Router>
     </>
   );
 }
 
 export default App;
 
-
 // import Particles from 'react-tsparticles';
-  // import Navbars from './components/Navbars';
+// import Navbars from './components/Navbars';
 // import { loadFull } from "tsparticles"
 
 // function App (){
@@ -38,7 +37,7 @@ export default App;
 //   };
 //   return (
 //     <div className="App">
-   
+
 //      <Particles
 //           id="tsparticles"
 //           init={particlesInit}
@@ -81,7 +80,7 @@ export default App;
 //               },
 //               shape: {
 //                 type: 'circle',
-       
+
 //               },
 //               size: {
 //                 random: {
@@ -92,9 +91,9 @@ export default App;
 //               }
 //             }
 //           }}
-//       />  
+//       />
 //   </div>
 //   );
 // }
- 
+
 // export default App;
