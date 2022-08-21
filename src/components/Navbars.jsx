@@ -1,10 +1,10 @@
 import React from 'react'
-import {Navbar, NavDropdown, Nav} from 'react-bootstrap'
+// import {Navbar, NavDropdown, Nav} from 'react-bootstrap'
 
 export default function Navbars() {
   return (
     <div>
-    <Navbar className='navbar fixed-top navbar-expand-lg navbar-dark p-md-3' collapseOnSelect expand="lg" bg="dark" variant="dark">
+    {/* <Navbar className='navbar fixed-top navbar-expand-lg navbar-dark p-md-3' collapseOnSelect expand="lg" bg="dark" variant="dark">
         <div className='container'>
       <Navbar.Brand href="/">React-Bootstrap</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -28,8 +28,8 @@ export default function Navbars() {
         </Nav>
       </Navbar.Collapse>
         </div>
-    </Navbar>
-      {/* <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3 bg-dark opacity-20">
+    </Navbar> */}
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3 bg-dark opacity-20">
         <div class="container">
             <a href="/" class="navbar-brand">Web Zone</a>
             <button type="button" class="navbar-toggler" 
@@ -58,7 +58,7 @@ export default function Navbars() {
                 </ul>
             </div>
         </div>
-    </nav> */}
+    </nav>
           </div>
   )
 }

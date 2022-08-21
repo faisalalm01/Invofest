@@ -4,7 +4,7 @@
   "private": true,
   "keywords": [
     "react-particles",
-		"react particles",
+    "react particles",
     "particles.js",
     "particles",
     "react"
@@ -18,8 +18,10 @@
     "react": "^18.2.0",
     "react-bootstrap": "^2.5.0",
     "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
+    "react-smooth": "^2.0.1",
     "react-tsparticles": "^2.1.4",
     "tsparticles": "^2.1.4",
     "web-vitals": "^2.1.4"
@@ -47,5 +49,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.8",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8"
   }
 }
