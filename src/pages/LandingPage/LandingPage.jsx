@@ -8,6 +8,7 @@ import Particle from '../../components/LandingComponents/Particle'
 import CardBaner from '../../components/LandingComponents/CardsBanner'
 import SocialIconst from '../../components/LandingComponents/SocialIconst'
 import Peta from '../../components/LandingComponents/Peta'
+import CardAcara from '../../components/LandingComponents/CardAcara'
 
 export default function LandingPage() {
   return (
@@ -26,19 +27,19 @@ export default function LandingPage() {
         </Container>
         </Animate>
         {/* end header */}
-        <div className='bg-primary p-5'>
-           <CardBaner className="container"/>
-        </div>
+        <div className='bg-lg my-5'>
+           <CardAcara />
         <Container>
           <Row className="my-5">
-            <Col xl={6} className="my-5">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eaque, possimus magni exercitationem a, corporis tenetur voluptatem quae porro commodi voluptatibus. Eius odit aperiam ab corrupti quam unde quibusdam. Voluptatibus.
+            <Col xl={6} className="text">
+            Jl. Mataram No.9, Kel. pesurungan lor, Kel. Pesurungan Lor, Pesurungan Lor, Margadana, Kota Tegal, Jawa Tengah 52147
             </Col>
             <Col xl={6}>
             <Peta/>
             </Col>
           </Row>
         </Container>
+        </div>
         
     </div>
   )

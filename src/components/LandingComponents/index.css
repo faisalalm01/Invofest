@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Abel|Raleway|Raleway+Dot|Asap|Barlow|Glegoo|Julius+Sans+One|Lato|Muli|Poiret+One|Sulphur+Point|Turret+Road&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Balinese&display=swap');
 
 .logo-lp {
     width: 20%;
-    padding-top: 10%;
+    padding-top: 5%;
 }
 .home-left{
     height: 100%;
@@ -34,8 +34,7 @@
 .typical{
     font-size: 1.6rem;
     /* font-family: 'Sulphur Point', sans-serif; */
-    font-family: 'Rubik Dirt', cursive;
-    font-family: 'Silkscreen', cursive;
+    font-family: 'Noto Serif Balinese', serif;
   }
 
 .home-left-aboutme-main{
@@ -60,7 +59,7 @@
   }
  
   .fb{
-    margin: 2%;
+    margin: 1%;
     color: white;
   }
 
@@ -69,7 +68,7 @@
   }
 
   .git{
-    margin: 2%;
+    margin: 1%;
     color: white;
   }
 
@@ -77,29 +76,11 @@
     color: #e90808;
   }
 
-  .twitter{
-    margin: 2%;
-    color: white;
-  }
-
-  .twitter:hover{
-    color: #00acee;
-  }
-
   .insta{
-    margin: 2%;
+    margin: 1%;
     color: white;
   }
 
   .insta:hover{
     color: #a833a2;
-  }
-
-  .linkedin{
-    margin: 2%;
-    color: white;
-  }
-  
-  .linkedin:hover{
-    color: #0e76a8;
   }

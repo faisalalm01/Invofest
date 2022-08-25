@@ -18,7 +18,7 @@ export default function CardsAcara() {
          </h1>
          <h3>
          <ReactTypingEffect
-           text="Lorem" //text=["Hello.", "World!"]
+           text="Peran Aktif Generasi Muda Di Era Society 5.0 Melalui Pendidikan Vokasi" //text=["Hello.", "World!"]
            className="typical"
            speed="100"
            eraseDelay="500000"

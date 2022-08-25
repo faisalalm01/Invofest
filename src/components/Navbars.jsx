@@ -24,7 +24,7 @@ export default function Navbars() {
                         <a href="/" class="nav-link text-white">Home</a>
                     </li>
                     <li class="nav-item mx-4">
-                        <a href="/" class="nav-link text-white">Talkshow</a>
+                        <a href="/Talkshow" class="nav-link text-white">Talkshow</a>
                     </li>
                     <li class="nav-item mx-4">
                         <a href="/" class="nav-link text-white">Seminar</a>
