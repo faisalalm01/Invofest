@@ -5,6 +5,8 @@ import LandingPage from "./pages/LandingPage";
 import Workshop from "./pages/workshop/workshop";
 import Competition from "./pages/competition/Competition";
 import Talkshow from "./pages/talkshow/Talkshow";
+import Seminar from "./pages/seminar/Seminar";
+import Lomba1 from "./pages/competition/lomba/Lomba1";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
           <Route path="/Competition" element={<Competition />} />
           <Route path="/Talkshow" element={<Talkshow />} />
           <Route path="/Workshop" element={<Workshop/>} />
+          <Route path="/Seminar" element={<Seminar />} />
+          <Route path="/Competition/Lomba1" element={<Lomba1 />} />
         </Routes>
       </Router>
     </>

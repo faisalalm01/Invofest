@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-// import {  } from "";
+
 
 export default class Banner extends Component {
   render() {
@@ -12,7 +12,7 @@ export default class Banner extends Component {
                 </figcaption>
         </figure> */}
         <div class="card text-bg-dark">
-          <img src="Assets/sur.jpg" class="gambar card-img" alt="..." />
+          <img src="../Assets/sur.jpg" class="gambar card-img" alt="..." />
           <div class="judul card-img-overlay text-white text-center">
             <h1 class="card-title font-weight-bold">TALKSHOW INTERAKTIF</h1>
             <p class="card-text ">
