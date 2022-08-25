@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Image } from 'react-bootstrap';
 import Navbars from '../../components/Navbars';
-import LandingPage from '../LandingPage';
+import LandingPage from '../LandingPage/LandingPage';
 
 class Competition extends Component {
     render() {

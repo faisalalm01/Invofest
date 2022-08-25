@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Raleway|Raleway+Dot|Asap|Barlow|Glegoo|Julius+Sans+One|Lato|Muli|Poiret+One|Sulphur+Point|Turret+Road&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&family=Silkscreen&display=swap');
+
+.logo-lp {
+    width: 20%;
+    padding-top: 10%;
+}
+.home-left{
+    height: 100%;
+ }
+
+.home-left-main{
+    height: 100%;
+    text-align: center;
+}
+
+.home-left-main-col{
+    margin: auto;    
+    display: block;
+}
+
+.first-line{
+    font-size: 3rem;
+    font-family: 'Sulphur Point', sans-serif;
+}
+
+.second_line{
+    font-size: 3rem;
+    /* font-family: 'Julius Sans One', sans-serif; */
+    font-family: 'Rubik Dirt', cursive;
+    font-family: 'Silkscreen', cursive;
+  }
+
+.typical{
+    font-size: 1.6rem;
+    /* font-family: 'Sulphur Point', sans-serif; */
+    font-family: 'Rubik Dirt', cursive;
+    font-family: 'Silkscreen', cursive;
+  }
+
+.home-left-aboutme-main{
+    position: relative;
+    z-index: -1;
+}
+
+.home-left-aboutme{
+   color: aliceblue;
+}
+
+.home-left-aboutme:hover{
+    color: black;
+ }
+
+.home-left-aboutmme-btn:hover{
+     background: #666666;
+ }
+ 
+ .social-icons{
+    text-align: center;
+  }
+ 
+  .fb{
+    margin: 2%;
+    color: white;
+  }
+
+  .fb:hover{
+    color: #2759c5;
+  }
+
+  .git{
+    margin: 2%;
+    color: white;
+  }
+
+  .git:hover{
+    color: #e90808;
+  }
+
+  .twitter{
+    margin: 2%;
+    color: white;
+  }
+
+  .twitter:hover{
+    color: #00acee;
+  }
+
+  .insta{
+    margin: 2%;
+    color: white;
+  }
+
+  .insta:hover{
+    color: #a833a2;
+  }
+
+  .linkedin{
+    margin: 2%;
+    color: white;
+  }
+  
+  .linkedin:hover{
+    color: #0e76a8;
+  }

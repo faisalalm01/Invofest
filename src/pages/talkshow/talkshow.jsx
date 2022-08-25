@@ -1,16 +1,20 @@
-import React, { Component } from 'react'
-import Navbars from '../../components/Navbars'
-import Cards from "../../components/Cards"
-// import Particles from 'react-particles-js';
-// import particles from '../../components/Particles';
+import React, { Component } from "react";
+import Navbars from "../../components/Navbars";
+import Banner from "../../components/Banner";
+import Destalk from "../../components/Destalk";
+import Footer from "../../components/Footer";
 
-export default class talkshow extends Component {
-    render() {
-        return (
-            <div>
-                <Navbars/>
-                <Cards/>
-            </div>
-        )
-    }
+export default class Talkshow extends Component {
+  render() {
+    return (
+      <div>
+        <div>
+        <Navbars />
+        <Banner />
+        </div>
+        <Destalk/>
+        <Footer/>
+      </div>
+    );
+  }
 }

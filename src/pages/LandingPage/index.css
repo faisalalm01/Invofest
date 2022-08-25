@@ -1,0 +1,23 @@
+.App-header {
+    /* background-color:#090909; */
+    background-size: cover;
+    background-image: url('../../../public/Assets/bg-landingPage.jpg');
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+.App-main {
+    min-height: 100vh; 
+  }
+
+.App-footer {
+    min-height: 5vh; 
+  }  
+
+.particle{
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+}

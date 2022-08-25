@@ -1,35 +1,36 @@
 import React from 'react';
 import Particles from 'react-tsparticles';
 import { loadFull } from 'tsparticles'
+// import '../LandingComponents/index.css'
 
 const Particle = () => {
 
   const particlesInit = async (main) => {
-
     await loadFull(main);
   };
   
   return (
     <Particles
+    className='particles'
     id="tsparticles"
     init={particlesInit}
     // loaded={particlesLoaded}
     options={{
-      background: {
-        color: {
-          value: "#808080",
-        },
-      },
+      // background: {
+      //   color: {
+      //     value: "#808080",
+      //   },
+      // },
       style:{
         width:"100%",
-        height:"100%",
+        height:"95%",
         // background: "cover",
         position: "absolute",
 
       },
       particles: {
         number: {
-          value: 130,
+          value: 70,
           density: {
             enable: true,
             value_area: 800
@@ -41,17 +42,17 @@ const Particle = () => {
         shape: {
           type: "circle",
           stroke: {
-            width: 3,
+            width: 7,
             color: "#000000"
           },
           polygon: {
             nb_sides: 5
           },
-          image: {
-            src: "img/github.svg",
-            width: 100,
-            height: 100
-          }
+          // image: {
+          //   src: "img/github.svg",
+          //   width: 100,
+          //   height: 80
+          // }
         },
         opacity: {
           value: 0,
@@ -64,7 +65,7 @@ const Particle = () => {
           }
         },
         size: {
-          value: 2,
+          value: 0,
           random: true,
           anim: {
             enable: false,
@@ -82,16 +83,16 @@ const Particle = () => {
         },
         move: {
           enable: true,
-          speed: 2,
+          speed: 1,
           direction: "none",
           random: false,
           straight: false,
           out_mode: "out",
-          bounce: true,
+          bounce: false,
           attract: {
             enable: false,
-            rotateX: 600,
-            rotateY: 1200
+            rotateX: 100,
+            rotateY: 200
           }
         }
       },

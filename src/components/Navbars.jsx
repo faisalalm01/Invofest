@@ -4,34 +4,9 @@ import React from 'react'
 export default function Navbars() {
   return (
     <div>
-    {/* <Navbar className='navbar fixed-top navbar-expand-lg navbar-dark p-md-3' collapseOnSelect expand="lg" bg="dark" variant="dark">
-        <div className='container'>
-      <Navbar.Brand href="/">React-Bootstrap</Navbar.Brand>
-      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-      <Navbar.Collapse id="responsive-navbar-nav">
-        <Nav activeKey={"/"} onSelect={(selectedkey) => selectedkey} className="mr-auto">
-          <Nav.Link href="/Talkshow">Features</Nav.Link>
-          <Nav.Link href="/Workshop">Pricing</Nav.Link>
-          <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-            <NavDropdown.Item href="/">Action</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-            <NavDropdown.Divider />
-            <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-          </NavDropdown>
-        </Nav>
-        <Nav>
-          <Nav.Link href="#deets">More deets</Nav.Link>
-          <Nav.Link eventKey={2} href="#memes">
-            Dank memes
-          </Nav.Link>
-        </Nav>
-      </Navbar.Collapse>
-        </div>
-    </Navbar> */}
-      <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3 bg-dark opacity-20">
+      <nav  class="navbar navbar-expand-lg navbar-light fixed-top" onScroll={'bg-dark'}>
         <div class="container">
-            <a href="/" class="navbar-brand">Web Zone</a>
+            {/* <a href="/" class="navbar-brand">Web Zone</a>
             <button type="button" class="navbar-toggler" 
             data-bs-toggle="collapse"
             data-bs-target="#navbarNav"
@@ -39,23 +14,30 @@ export default function Navbars() {
             aria-expanded="false"
             aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button>
+            </button> */}
+                    
             <div class="collapse navbar-collapse" id="navbarNav">
-                <div class="mx-auto"></div>
+                <div class="mx-auto">
+                    
                 <ul class="navbar-nav">
-                    <li class="nav-item">
+                    <li class="nav-item mx-4">
                         <a href="/" class="nav-link text-white">Home</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="/" class="nav-link text-white">About</a>
+                    <li class="nav-item mx-4">
+                        <a href="/" class="nav-link text-white">Talkshow</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="/" class="nav-link text-white">Profile</a>
+                    <li class="nav-item mx-4">
+                        <a href="/" class="nav-link text-white">Seminar</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="/" class="nav-link text-white">Log-out</a>
+                    <li class="nav-item mx-4">
+                        <a href="/" class="nav-link text-white">IT Competition</a>
+                    </li>
+                    <li class="nav-item mx-4">
+                        <a href="/" class="nav-link text-white">Workshop</a>
                     </li>
                 </ul>
+
+                </div>
             </div>
         </div>
     </nav>

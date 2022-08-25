@@ -4,7 +4,7 @@ import { Card } from 'react-bootstrap'
 export default function Cards() {
   return (
     <>
-    <Card border="danger" style={{ width: '100%' }}>
+    <Card border="danger" style={{ width: '18%' }}>
     <Card.Header>Header</Card.Header>
     <Card.Body>
       <Card.Title>Danger Card Title</Card.Title>
