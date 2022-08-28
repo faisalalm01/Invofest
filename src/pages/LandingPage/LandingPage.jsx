@@ -26,8 +26,11 @@ export default function LandingPage() {
             </Row>
         </Container>
         </Animate>
+        <div className='bg-dark p-5'>
+          <CardAcara/>
+        </div>
         {/* end header */}
-        <div className='bg-lg my-5'>
+        <div className='py-5'>
            <CardAcara />
         <Container>
           <Row className="my-5">

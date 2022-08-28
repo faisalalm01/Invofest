@@ -4,7 +4,7 @@ import {
     Col,
    } from 'react-bootstrap';
    import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-   import { faFacebook, faTwitter, faInstagram, faLinkedin, faYoutube } from '@fortawesome/free-brands-svg-icons';
+   import { faFacebook, faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons';
    
 
 export default function SocialIconst() {
@@ -17,7 +17,7 @@ export default function SocialIconst() {
     <a href="https://youtube.com/motasimfoad" target="_blank" rel="noopener noreferrer">
     <FontAwesomeIcon className="git" icon={faYoutube} />
     </a>
-    <a href="https://www.instagram.com/motasimfoad/" target="_blank" rel="noopener noreferrer">
+    <a data-toggle='tooltip-bottom' title='instagram' href="https://www.instagram.com/motasimfoad/" target="_blank" rel="noopener noreferrer">
     <FontAwesomeIcon className="insta" icon={faInstagram} />
     </a>
    </Col>   
