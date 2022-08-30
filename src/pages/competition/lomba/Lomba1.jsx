@@ -1,6 +1,6 @@
 import React from "react";
 import Banner from "../../../components/Banner";
-import CardJuara from "../../../components/com/CardJuara1";
+import CardJuara1 from "../../../components/com/CardJuara1";
 import Deslomba1 from "../../../components/com/Deslomba1";
 import Reg1 from "../../../components/com/Reg1";
 import Footer from "../../../components/Footer";
@@ -12,7 +12,7 @@ export default function Lomba1() {
       <Navbars />
       <Banner />
       <Deslomba1 />
-      <CardJuara />
+      <CardJuara1 />
       <Reg1/>
       <Footer/>
     </div>

@@ -2,7 +2,17 @@
   "name": "infofest-2022",
   "version": "0.1.0",
   "private": true,
+  "keywords": [
+    "react-particles",
+    "react particles",
+    "particles.js",
+    "particles",
+    "react"
+  ],
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.2",
+    "@fortawesome/free-brands-svg-icons": "^6.1.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@headlessui/react": "^1.6.6",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -12,10 +22,14 @@
     "react": "^18.2.0",
     "react-bootstrap": "^2.5.0",
     "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
+    "react-smooth": "^2.0.1",
     "react-tsparticles": "^2.1.4",
-    "tsparticles": "^2.1.4",
+    "react-typing-effect": "^2.0.5",
+    "react-vertical-timeline-component": "^3.5.2",
+    "tsparticles": "^2.2.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

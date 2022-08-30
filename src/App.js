@@ -1,12 +1,16 @@
 import "./index.css";
 import React from "react";
 import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
-import LandingPage from "./pages/LandingPage";
+import LandingPage from "./pages/LandingPage/LandingPage";
 import Workshop from "./pages/workshop/workshop";
 import Competition from "./pages/competition/Competition";
 import Talkshow from "./pages/talkshow/Talkshow";
 import Seminar from "./pages/seminar/Seminar";
 import Lomba1 from "./pages/competition/lomba/Lomba1";
+import TimelineAcara from "./pages/Timeline/TimelineAcara";
+import Lomba2 from "./pages/competition/lomba/Lomba2";
+import Lomba3 from "./pages/competition/lomba/Lomba3";
+
 
 function App() {
   return (
@@ -19,6 +23,11 @@ function App() {
           <Route path="/Workshop" element={<Workshop/>} />
           <Route path="/Seminar" element={<Seminar />} />
           <Route path="/Competition/Lomba1" element={<Lomba1 />} />
+          <Route path="/Competition/Lomba2" element={<Lomba2 />} />
+          <Route path="/Competition/Lomba3" element={<Lomba3 />} />
+
+          <Route path="/Jadwal" element={<TimelineAcara/>} />
+
         </Routes>
       </Router>
     </>
