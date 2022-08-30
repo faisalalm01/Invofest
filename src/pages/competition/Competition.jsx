@@ -1,25 +1,32 @@
 
 import React, { Component } from 'react';
-import { Image } from 'react-bootstrap';
+import { Row, Container, Col } from 'react-bootstrap'
+import Cards from '../../components/com/Cards';
+import Particle from '../../components/LandingComponents/Particle';
+import SocialIconst from '../../components/LandingComponents/SocialIconst';
 import Navbars from '../../components/Navbars';
-import LandingPage from '../LandingPage/LandingPage';
+import CardBaner from '../../components/LandingComponents/CardsBanner'
+
 
 class Competition extends Component {
     render() {
         return (
             <div>
-    <LandingPage/>
-                <Navbars/>
-                  <div className='flex h-screen justify-center items-center'>
-        <h1 className='font-bold text-8xl'>COMPETITION COMING SOON !!!!!</h1>
-    </div>
-    <div>
-    <Image className='' src="Assets/ig.png" fluid />
-    </div>
-            </div>
+                <Navbars />
+                <Particle />
+                <Container className="App-header" fluid={true}>
+            <Row className="App-main">
+              <Col  xl={12}  className="App-center mt-5">
+                <CardBaner/>
+              </Col>
+                <SocialIconst/>
+            </Row>
+        </Container>
+                <Cards/>
+                </div>
         );
     }
-// >>>>>>> 55f409941f34e96d57551d66aabb4ee867515b3f
+
 }
 
 export default Competition;
