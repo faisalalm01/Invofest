@@ -5,10 +5,11 @@ import LandingPage from "./pages/LandingPage/LandingPage";
 import Workshop from "./pages/workshop/workshop";
 import Competition from "./pages/competition/Competition";
 import Talkshow from "./pages/talkshow/talkshow";
-import TimelineAcara from "./pages/Timeline/TimelineAcara";
 import Seminar from "./pages/seminar/Seminar";
 import Lomba1 from "./pages/competition/lomba/Lomba1";
-// >>>>>>> 48ef886b423ea862e83efaa229e06a00dca8843a
+import TimelineAcara from "./pages/Timeline/TimelineAcara";
+import Lomba2 from "./pages/competition/lomba/Lomba2";
+import Lomba3 from "./pages/competition/lomba/Lomba3";
 
 function App() {
   return (
@@ -19,10 +20,11 @@ function App() {
           <Route path="/Competition" element={<Competition />} />
           <Route path="/Talkshow" element={<Talkshow />} />
           <Route path="/Workshop" element={<Workshop/>} />
-          <Route path="/Jadwal" element={<TimelineAcara/>} />
           <Route path="/Seminar" element={<Seminar />} />
           <Route path="/Competition/Lomba1" element={<Lomba1 />} />
-{/* >>>>>>> 48ef886b423ea862e83efaa229e06a00dca8843a */}
+          <Route path="/Competition/Lomba2" element={<Lomba2 />} />
+          <Route path="/Competition/Lomba3" element={<Lomba3 />} />
+          <Route path="/Jadwal" element={<TimelineAcara/>} />
         </Routes>
       </Router>
     </>

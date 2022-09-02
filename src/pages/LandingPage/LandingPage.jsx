@@ -30,8 +30,10 @@ export default function LandingPage() {
           <CardAcara/>
         </div>
         {/* end header */}
+        
         <div className='py-5'>
            <CardAcara />
+
         <Container>
           <Row className="my-5">
             <Col xl={6} className="text">

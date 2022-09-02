@@ -1,45 +1,31 @@
-// <<<<<<< HEAD
-// import React, { Component } from 'react';
-// import { Image } from 'react-bootstrap';
-// import Navbars from '../../components/Navbars';
-// import LandingPage from '../LandingPage/LandingPage';
+import React, { Component } from 'react';
+import { Row, Container, Col } from 'react-bootstrap'
+import Cards from '../../components/com/Cards';
+import Particle from '../../components/LandingComponents/Particle';
+import SocialIconst from '../../components/LandingComponents/SocialIconst';
+import Navbars from '../../components/Navbars';
+import CardBaner from '../../components/LandingComponents/CardsBanner'
 
-// class Competition extends Component {
-//     render() {
-//         return (
-//             <div>
-//     <LandingPage/>
-//                 <Navbars/>
-//                   <div className='flex h-screen justify-center items-center'>
-//         <h1 className='font-bold text-8xl'>COMPETITION COMING SOON !!!!!</h1>
-//     </div>
-//     <div>
-//     <Image className='' src="Assets/ig.png" fluid />
-//     </div>
-//             </div>
-//         );
-//     }
-// =======
-import React, { Component } from "react";
-import Banner from "../../components/Banner";
-import Cards from "../../components/com/Cards";
-import Navbars from "../../components/Navbars";
 
 class Competition extends Component {
-  render() {
-    return (
-      <div>
-        <Navbars />
-        {/* <div className='flex h-screen justify-center items-center'>
-        <h1 className='font-bold text-8xl'>COMPETITION COMING SOON !!!!!</h1>
-    </div> */}
-            <Banner/>
-            <Cards />
-            
-        </div>
-    );
-  }
-// >>>>>>> 48ef886b423ea862e83efaa229e06a00dca8843a
+    render() {
+        return (
+            <div>
+                <Navbars />
+                <Particle />
+                <Container className="App-header" fluid={true}>
+            <Row className="App-main">
+              <Col  xl={12}  className="App-center mt-5">
+                <CardBaner/>
+              </Col>
+                <SocialIconst/>
+            </Row>
+        </Container>
+                <Cards/>
+                </div>
+        );
+    }
+
 }
 
 export default Competition;

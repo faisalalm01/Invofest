@@ -4,7 +4,7 @@ import JadwalAcara from '../../components/Timeline/JadwalAcara'
 export default function TimelineAcara() {
   return (
     <div>
-        <JadwalAcara/>
+      <JadwalAcara/>
     </div>
   )
 }
