@@ -1,38 +1,57 @@
 import React from 'react'
-// import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
-import '../Timeline/index.css'
-// import WorkIcon from "@material-ui/icons/Work";
-// import SchoolIcon from "@material-ui/icons/School";
-// import StarIcon from "@material-ui/icons/StarRate";
+import { Chrono } from "react-chrono";
 
-export default function JadwalAcara() {
+
+ const JadwalAcara = () => {
+    const items = [{
+        title: "May 1940",
+        cardTitle: "Dunkirk",
+        url: "http://www.history.com",
+        cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
+        cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
+ 
+      }, 
+      {
+        title: "May 1940",
+        cardTitle: "Dunkirk",
+        url: "http://www.history.com",
+        cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
+        cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
+ 
+      },
+      {
+        title: "May 1940",
+        cardTitle: "Dunkirk",
+        url: "http://www.history.com",
+        cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
+        cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
+ 
+      },
+      {
+        title: "May 1940",
+        cardTitle: "Dunkirk",
+        url: "http://www.history.com",
+        cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
+        cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
+ 
+      },
+     
+    ];
+  
   return (
-    <div class="history-tl-container">
-    <ul class="tl">
-      <li class="tl-item" ng-repeat="item in retailer_history">
-        <div class="timestamp">
-          3rd March 2015<br/> 7:00 PM
-        </div>
-        <div class="item-title">Start from Shire</div>
-        <div class="item-detail">Don't forget the ring</div>
-      </li>
-      <li class="tl-item" ng-repeat="item in retailer_history">
-        <div class="timestamp">
-          19th March 2015<br/> 3:00 PM
-        </div>
-        <div class="item-title">Kill some Orcs</div>
-        <div class="item-detail">Don't enter the caves!!</div>
-      </li>
-      <li class="tl-item" ng-repeat="item in retailer_history">
-        <div class="timestamp">
-          1st June 2015<br/> 7:00 PM
-        </div>
-        <div class="item-title">Throw that goddamn ring in the lava</div>
-        <div class="item-detail">Also, throw that Gollum too</div>
-      </li>
-  
-    </ul>
-  
+    <div className='container text-center'>
+      <h3 className='py-4 pt-5'>Timeline Acara</h3>
+    <Chrono items={items} 
+     theme={{
+      primary: 'black',
+      secondary: 'blue',
+      cardBgColor: 'gray',
+      // cardForeColor: 'violet',
+      titleColor: 'black',
+      titleColorActive: 'red',}}
+    enableOutline mode="VERTICAL_ALTERNATING" itemWidth={320} />
   </div>
-    )
+  )
 }
+
+export default JadwalAcara

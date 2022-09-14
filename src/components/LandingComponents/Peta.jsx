@@ -8,7 +8,7 @@ export default function Peta() {
           border:0, borderRadius:15,
           borderColor:'red'
           }}
-          allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
         </div>
   )
 }

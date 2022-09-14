@@ -21,3 +21,8 @@
     width:100%;
     height:100%;
 }
+
+.bg-gold {
+  background: linear-gradient(rgb(53, 52, 42), rgba(97, 87, 37, 0.977), rgb(98, 91, 36), rgb(54, 50, 18));
+  margin-top: -1px;
+}
