@@ -4,7 +4,7 @@ import { Chrono } from "react-chrono";
 
  const JadwalAcara = () => {
     const items = [{
-        title: "May 1940",
+        title: "Oktober 2022",
         cardTitle: "Dunkirk",
         url: "http://www.history.com",
         cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
@@ -12,7 +12,7 @@ import { Chrono } from "react-chrono";
  
       }, 
       {
-        title: "May 1940",
+        title: "Oktober 2022",
         cardTitle: "Dunkirk",
         url: "http://www.history.com",
         cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
@@ -20,7 +20,7 @@ import { Chrono } from "react-chrono";
  
       },
       {
-        title: "May 1940",
+        title: "Oktober 2022",
         cardTitle: "Dunkirk",
         url: "http://www.history.com",
         cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
@@ -28,7 +28,7 @@ import { Chrono } from "react-chrono";
  
       },
       {
-        title: "May 1940",
+        title: "Oktober 2022",
         cardTitle: "Dunkirk",
         url: "http://www.history.com",
         cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
@@ -42,14 +42,16 @@ import { Chrono } from "react-chrono";
     <div className='container text-center'>
       <h3 className='py-4 pt-5'>Timeline Acara</h3>
     <Chrono items={items} 
+    style={{ width: '500px', height: '950px' }}
      theme={{
       primary: 'black',
-      secondary: 'blue',
+      secondary: 'white',
       cardBgColor: 'gray',
       // cardForeColor: 'violet',
       titleColor: 'black',
-      titleColorActive: 'red',}}
-    enableOutline mode="VERTICAL_ALTERNATING" itemWidth={320} />
+      titleColorActive: 'black',}}
+     mode="VERTICAL" itemWidth={90} />
+   
   </div>
   )
 }

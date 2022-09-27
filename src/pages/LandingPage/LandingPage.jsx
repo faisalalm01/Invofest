@@ -3,7 +3,7 @@ import "../LandingPage/index.css";
 import Animate from "react-smooth/lib/Animate";
 // import Banner from '../../components/Banner'
 import Navbars from "../../components/Navbars";
-import { Row, Container, Col } from "react-bootstrap";
+import { Row, Container, Col, Image } from "react-bootstrap";
 import Particle from "../../components/LandingComponents/Particle";
 import CardBaner from "../../components/LandingComponents/CardsBanner";
 import SocialIconst from "../../components/LandingComponents/SocialIconst";
@@ -33,6 +33,22 @@ export default function LandingPage() {
 
       <main className="pt-5 bg-gold">
         <CardAcara />
+        <div className=" container mt-5 ">
+        <Row xs="auto text-center">
+          <Col className="">
+            <Image src="Assets/1.jpg" roundedCircle />
+            <h5>hendrawan supcipto</h5>
+            <p>Narasumber</p>
+            <p>Lorem ipsum dolor sit.</p>
+          </Col>
+          <Col className="">
+            <Image src="Assets/1.jpg" roundedCircle />
+            <h5>hendrawan supcipto</h5>
+            <p>Narasumber</p>
+            <p>Lorem ipsum dolor sit.</p>
+          </Col>
+        </Row>
+      </div>
       </main>
         <JadwalAcara />
         <Container className="text-center mt-5">
